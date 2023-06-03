@@ -1,0 +1,132 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    
+}
+body{
+    background-color: rgb(101,34,195);
+    background: linear-gradient(0deg, rgb(128, 34, 195) 0%, rgba(61,173,118,1) 100%); ;
+}
+
+.logo{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 555px;
+    box-shadow: 2px 5px 10px rgb(8, 2, 60);
+}
+main{
+    width: 375px;
+    background:rgb(239, 238, 240);
+    border-radius: 25px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    box-shadow: 5px 5px 12px rgb(8, 2, 60);
+}
+h1{
+    font-size: 900;
+    color: #5c0c7b;
+}
+label {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    color: #727274;
+}
+select {
+    background: #ffffff;
+    border: 1px solid#8b1fb6;
+    border-radius: 8px;
+    height: 48px;
+    width: 100%;
+    outline: none;
+    padding-left: 18px;
+    box-shadow: 2px 2px 5px rgb(8, 2, 60);
+    margin-top: 6px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #613578;
+    cursor: pointer;
+}
+input{
+    border-radius: 10px;
+    width: 100%;
+    height: 48px;
+    outline: none;
+    padding-left: 18px;
+    border: 1px solid#8b1fb6;
+    box-shadow: 2px 2px 5px rgb(8, 2, 60);
+    margin-top: 6px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #613578;
+    cursor: pointer;
+}
+button{
+    background: #8b1fb6;
+    border-radius: 10px;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid#8b1fb6;
+    box-shadow: 2px 2px 5px rgb(8, 2, 60);
+    margin-top: 6px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+}
+section{
+    border: 2px solid #8b1fb6;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brasil-img{
+    width: 50px;
+}
+.arrow-img{
+    margin: 15px 0;
+}
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.curency{
+color: #727274;
+font-size: 14px;
+}
+.currency-value, .currency-value-to-convert{
+color: #555555;
+font-weight: 700;
+font-size:20px ;
+}
+.assin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#org{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #613578;
+}

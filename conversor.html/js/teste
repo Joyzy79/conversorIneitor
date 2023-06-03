@@ -1,0 +1,31 @@
+/*function convertValues() {
+  const inputCurrencyValue = document.querySelector(".input-currency").value;
+  const currencyValueToConvert = document.querySelector(".currency-value-to-convert");
+  const currencyValueConverted = document.querySelector(".currency-value");
+
+  const currencySelect = document.querySelector(".currency-select");
+  currencyValueConverted.innerHTML = ""; // limpa o valor anterior
+
+  console.log(currencySelect.value);
+  const dolarToday = 5.2;
+  const euroToday = 6.2;
+
+  if (currencySelect.value == "Dólar") {
+    currencyValueConverted.innerHTML = new Intl.NumberFormat("en-us", {
+      style: "currency",
+      currency: "USD",
+    }).format(inputCurrencyValue / dolarToday);
+  }
+
+  if (currencySelect.value == "Euro") {
+    currencyValueConverted.innerHTML = new Intl.NumberFormat("en-UK", {
+      style: "currency",
+      currency: "EUR", //falta substituir a palavra dolar por euro junto ao valor no app
+    }).format(inputCurrencyValue / euroToday);
+  }
+
+  currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-br", {
+    style: "currency",
+    currency: "BRL",
+  }).format(inputCurrencyValue);
+}*/

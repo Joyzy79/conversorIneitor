@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;700;900&family=Josefin+Sans:ital,wght@0,300;0,500;0,600;1,100;1,700&display=swap" rel="stylesheet">
+    <title>ConversorIneitor</title>
+</head>
+<body><div class="org">
+    <img class= "logo" src="./assets/intercambio.gif" alt="conversor-de-moedas">
+      <main>
+    <header>
+        <h1>ConversorIneitor</h1>
+        <br>
+    </header>
+        <label>
+            Converter <strong>de</strong>
+            <select>
+                <option>R$ Real Brasileiro </option>
+            </select>
+        </label>
+        <label>
+            Converter <b>para</b>
+            <select class="currency-select">
+                <option value="Dólar">US$ Dólar Americano </option>
+                <option value="Euro">€ Euro </option>
+                <option value="Libra">£ Libra </option>
+            </select>
+        </label>
+        <label>
+            Valor
+            <input class="input-currency"  placeholder="R$ 10.000,00">
+        </label>
+            <button class="convert-button">Converter</button>
+            <section>
+                <div class="currency-box">
+                    <img class="brasil-img"src="./assets/brasil 2@2x.png" id= "currency-img" alt ="logo-moeda-a-converter">
+                    <p class="curency">Real</p>
+                    <p class="currency-value-to-convert">R$ 0,00</p>
+                </div>
+                <img class="arrow-img" src="./assets/Vector.png" alt="seta">
+                <div class="currency-box">
+                    <img class="currency-img"src="assets/estados-unidos (1) 1 (1).svg" alt="logo-moeda-a-converter">
+                    <p class="curency" id="currency-name">Dólar americano</p>
+                    <p class="currency-value">US$ 0,00</p>
+                </div>
+            
+                </div>
+    </main>
+    <footer class="assin">Feito por joyzy79</footer>
+  </div>
+</div>
+</body>
+
+<script src="./js/script.js">
+    
+</script>
+
+</html>
