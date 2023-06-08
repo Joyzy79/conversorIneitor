@@ -1,4 +1,5 @@
 # ConversorIneitor
+![screencapture-comversor-de-moeda-jz-netlify-app-2023-06-08-12_40_59](https://github.com/Joyzy79/conversorIneitor/assets/129207028/cd824807-695f-417c-8bd4-5b3d8c2dd565)
 
 ## Descrição
 O ConversorIneitor é uma aplicação web que permite a conversão de valores monetários entre diferentes moedas. Com esta ferramenta simples e intuitiva, os usuários podem facilmente converter valores de Real Brasileiro (BRL) para Dólar Americano (USD), Euro (EUR) e Libra Esterlina (GBP).
